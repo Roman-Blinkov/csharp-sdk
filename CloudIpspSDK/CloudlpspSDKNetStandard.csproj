@@ -2,6 +2,26 @@
 
 	<PropertyGroup>
 		<TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageProjectUrl>https://github.com/Roman-Blinkov/csharp-sdk/</PackageProjectUrl>
+		<Description>A payment service provider (PSP) offers shops online services for accepting electronic payments by a variety of payment methods including credit card, bank-based payments such as direct debit, bank transfer, and real-time bank transfer based on online banking. Typically, they use a software as a service model and form a single payment gateway for their clients (merchants) to multiple payment methods.
+		</Description>
+		<RepositoryUrl>https://github.com/Roman-Blinkov/csharp-sdk/</RepositoryUrl>
+		<PackageTags>fondy.eu fondy CloudIPSP</PackageTags>
+		<PackageReleaseNotes>UTF-8 bug fix + .NET Standard</PackageReleaseNotes>
+		<Authors>D.M. (CloudIPSP), Roman Blinkov</Authors>
+		<RepositoryType>git</RepositoryType>
+		<Company>fondy.eu, Roman Blinkov</Company>
+		<Title>SDK for fondy.eu (CloudIpsp)</Title>
+		<Copyright>fondy.eu, Roman Blinkov</Copyright>
+		<PackageIcon>fondy-logo.png</PackageIcon>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<ApplicationIcon>
+			fondy-logo.ico
+		</ApplicationIcon>
+		<PublisherName>Roman Blinkov</PublisherName>
+		<SupportUrl>https://docs.fondy.eu/</SupportUrl>
+		<PackageIconUrl>https://habrastorage.org/webt/kp/vg/9k/kpvg9kcr0olxifziwrb5fie3srs.png</PackageIconUrl>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -9,7 +29,14 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Properties\" />
+		<Folder Include="Properties\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="fondy-logo.png">
+	    <Pack>True</Pack>
+	    <PackagePath></PackagePath>
+	  </None>
 	</ItemGroup>
 
 </Project>
